@@ -1,0 +1,32 @@
+## Interface: 16001
+## Title: Gearfinder - WoW Forever
+## Notes: Dungeon and raid gear planner for WoW Forever (1.60.1): class, spec, faction and level aware upgrades, map pins.
+## Author: Gearfinder Project
+## AllowLoadGameType: camelot
+## X-License: All Rights Reserved
+## Version: @project-version@
+## IconTexture: Interface\AddOns\Gearfinder\Media\MinimapIcon
+## AddonCompartmentFunc: GearfinderAddonCompartmentClick
+## AddonCompartmentFuncOnEnter: GearfinderAddonCompartmentEnter
+## AddonCompartmentFuncOnLeave: GearfinderAddonCompartmentLeave
+## SavedVariables: GearfinderDB
+## SavedVariablesPerCharacter: GearfinderCharDB
+
+Gearfinder.lua
+Core/Compat.lua
+Core/Stats.lua
+Core/Specializations.lua
+Core/Character.lua
+Core/ItemFilter.lua
+Core/BiSScoring.lua
+Data/ForeverInstances.lua
+Data/Entrances.lua
+Data/Loot.lua
+Data/LootUpdate.lua
+Core/Catalog.lua
+Core/AtlasLootImport.lua
+Core/API.lua
+UI/ItemTooltip.lua
+UI/MainWindow.lua
+UI/MinimapButton.lua
+UI/MapPins.lua
